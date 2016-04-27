@@ -50,7 +50,9 @@ level | power | def
 3 | -2 | 3
 4 | -3 | max
 
-**def4相当于refect**
+**defmax相当于refect**
+
+对战结果演示，1为alive，0为dead
 
 ex1: {gay1:pow, gay2:atk2, gay3:def2}  => {0, 1, 1}
 
