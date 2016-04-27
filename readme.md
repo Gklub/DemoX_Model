@@ -26,14 +26,14 @@ View、Controller详情见组件项目
 
 power
 
-level | power | def
-- | - | -
+level | power | def 
+||
 0 | +1 | 0
 
 attack
 
 level | power | atk
-- | - | -
+||
 1 | -1 | 1
 2 | -2 | 2
 3 | -3 | 3
@@ -44,7 +44,7 @@ level | power | atk
 defend
 
 level | power | def
-- | - | -
+||
 1 | 0 | 1
 2 | -1 | 2
 3 | -2 | 3
