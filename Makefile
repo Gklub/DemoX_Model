@@ -1,4 +1,8 @@
-#Makefile begin
+# Makefile begin
+
+url = localhost:3000
+# url = 139.129.24.151:3000
+urlapi = 'http://$(url)/login'
 
 run:
 	node bin/www
@@ -14,20 +18,24 @@ reset:
 	git reset --hard HEAD
 men: man 5 6 7 8
 man: 1 2 3 4
+
+c1 = curl -d 'name=gay
+c2 = ' $(urlapi)
+
 1:
-	curl -d 'name=gay1' 'http://139.129.24.151:3000/login'
+	$(c1)1$(c2)
 2:
-	curl -d 'name=gay2' 'http://139.129.24.151:3000/login'
+	$(c1)2$(c2)
 3:
-	curl -d 'name=gay3' 'http://139.129.24.151:3000/login'
+	$(c1)3$(c2)
 4:
-	curl -d 'name=gay4' 'http://139.129.24.151:3000/login'
+	$(c1)4$(c2)
 5:
-	curl -d 'name=gay5' 'http://139.129.24.151:3000/login'
+	$(c1)5$(c2)
 6:
-	curl -d 'name=gay6' 'http://139.129.24.151:3000/login'
+	$(c1)6$(c2)
 7:
-	curl -d 'name=gay7' 'http://139.129.24.151:3000/login'
+	$(c1)7$(c2)
 8:
-	curl -d 'name=gay8' 'http://139.129.24.151:3000/login'
+	$(c1)8$(c2)
 #Makefile end
